@@ -13,6 +13,8 @@
 #include <RcppArmadillo.h>
 //[[Rcpp::depends(RcppArmadillo)]]
 
+#define PI             M_PI
+
 // --------------------------------//--------------------------------
 #include <omp.h>
 //[[Rcpp::plugins(openmp)]]
